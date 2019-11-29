@@ -5,3 +5,5 @@ the below is a multiline comment
 this is in a shell script
 ...
 EOF
+greeting="Hello there"
+echo $greeting
