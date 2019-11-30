@@ -74,3 +74,26 @@ Trying to change te value of the variable gives an error
 name="John"
 echo $name
 ```
+
+__Remove a variable__
+The uset command is used to delete variables
+After a varible is removed, it no longer exists
+
+```bash
+my_name="simon"
+#echo $my_name
+unset my_name
+echo $my_name
+```
+
+__Input to a variable__
+The `read` keyword is reserved to read user input  
+We can store user input into a variable  
+
+```bash
+echo "Please input your name:"
+#read user input and store in a variable myInput
+read myInput
+#using the input
+echo "Hello your name is: $myInput"
+```
