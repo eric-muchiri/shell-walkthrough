@@ -49,3 +49,28 @@ The `$` sign is used when invoking variables
 ```bash
 echo $greeting
 ```
+
+__Variable names__  
+Rules:  
+
+* Only english letters, numbers and underscores  
+* The first character cannot be a number  
+* No spaces in the middle of the variable name  
+* Names cannot be panctuated  
+* Bash keywords cannot be used as variable names  
+
+__Read only variables__
+The `readonly` keyword is used to indicate a variable as read-only hence the value cannot be changed  
+
+```bash
+name="Doe"
+readonly name
+echo $name
+```
+
+Trying to change te value of the variable gives an error
+
+```bash
+name="John"
+echo $name
+```
