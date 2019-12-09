@@ -27,3 +27,39 @@ echo "hello $name"
 
 The output from the above becomes  
 `hello Eric`  
+
+3. __Connecting Strings__  
+We can use double quotes to connect two strings  
+
+```bash
+#connecting two strings
+str1='hello'
+str2='there'
+mystring="$str1 $str2"
+echo $mystring
+```
+
+The output from the above becomes  
+`hello there`  
+
+Getting the length of a string  
+
+```bash
+#getting the length of a string
+str='hello this is a bash string'
+echo ${#str}
+```
+
+Output  
+`27`  
+
+__Extracting a substring__  
+
+```bash
+#extract a substring
+echo ${str:0:5}
+#the output is hello
+```
+
+`string:start:length`  
+start(extraction begin) length(extraction size)
