@@ -42,7 +42,7 @@ echo $mystring
 The output from the above becomes  
 `hello there`  
 
-Getting the length of a string  
+__Getting the length of a string__  
 
 ```bash
 #getting the length of a string
