@@ -19,3 +19,11 @@ echo ${#str}
 echo ${str:0:5}
 #the output is hello
 
+#Expr
+#An expression used for calculation
+x=100
+y=150
+
+z=`expr $x + $y`
+echo "The sum is $z"
+

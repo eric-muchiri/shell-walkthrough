@@ -63,3 +63,17 @@ echo ${str:0:5}
 
 `string:start:length`  
 start(extraction begin) length(extraction size)
+
+__Expr__
+Used for mathematical expressions  
+
+```bash
+x=100
+y=150
+
+z=`expr $x + $y`
+echo "The sum is $z"
+```
+
+The output becomes  
+`The sum is 250`  
