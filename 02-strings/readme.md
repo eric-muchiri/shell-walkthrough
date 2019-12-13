@@ -89,3 +89,21 @@ str_name="my name is dan"
 echo `expr index "$str_name" e`
 #gives an index of te letter e from the above string
 ```
+
+__Shell parameters__  
+We can accept parameters to be passed during execution of the script  
+"n" representa a number  
+$0 represents the file name  
+$1 represents the first parameter  
+$2 represents the second parameter  
+$3 represents the third parameter  
+
+```bash
+echo "my file name is $0"
+echo "first parameter is $1"
+echo "second parameter is $2"
+echo "Third parameter is $3"
+```
+
+execute bash ok.sh passing some parameters e.g:  
+`bash ok.sh un deux troi`  
