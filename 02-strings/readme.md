@@ -77,3 +77,15 @@ echo "The sum is $z"
 
 The output becomes  
 `The sum is 250`  
+
+__Search index__  
+Used to search for certain characters in the string  
+Gives back the index of the character in the string  
+For example to search for letter `e`  
+
+```bash
+#search index
+str_name="my name is dan"
+echo `expr index "$str_name" e`
+#gives an index of te letter e from the above string
+```
