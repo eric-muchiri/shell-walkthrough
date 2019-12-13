@@ -27,3 +27,7 @@ y=150
 z=`expr $x + $y`
 echo "The sum is $z"
 
+#search index
+str_name="my name is dan"
+echo `expr index "$str_name" e`
+#gives an index of te letter e from the above string
