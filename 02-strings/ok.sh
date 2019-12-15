@@ -13,3 +13,8 @@ echo "Third parameter is $3"
 
 #execute bash ok.sh passing some parameters e.g
 #bash ok.sh me you them
+
+#Built in parameters
+echo "The total of the parameters is: $#"
+echo "All the parameters input by the user is: $*"
+echo "The current process ID is: $$"

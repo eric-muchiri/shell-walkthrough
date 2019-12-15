@@ -107,3 +107,13 @@ echo "Third parameter is $3"
 
 execute bash ok.sh passing some parameters e.g:  
 `bash ok.sh un deux troi`  
+
+__Shell built-in parameters__  
+There are some built in parameters in shell  
+$0 - rreturns the filename  
+$# - Returnns the total number of parameters  
+$* - Return all parameters input by the user  
+$@ - Return parameters input by the user  
+$$ - Return the current process ID numberof the script  
+$! - Return the last ID number of the script  
+$? - Returning 0 indicates running successfully  
