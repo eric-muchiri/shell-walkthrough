@@ -22,3 +22,10 @@ myArray[0]=10
 myArray[1]=20
 myArray[2]=30
 ```
+
+## Accessing Elements  
+To access elements from an array  
+`${array_name[index]}`  
+  
+__Get all elements__  
+`${array_name[@]}` or `$array_name[*]` can be used to get all elements in an array  
