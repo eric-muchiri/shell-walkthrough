@@ -8,3 +8,5 @@ color[2]="blue"
 echo ${myArray[1]}
 #get all elements
 echo ${color[@]}
+#length of the array
+echo ${#color[@]}

@@ -28,4 +28,8 @@ To access elements from an array
 `${array_name[index]}`  
   
 __Get all elements__  
-`${array_name[@]}` or `$array_name[*]` can be used to get all elements in an array  
+`${array_name[@]}` or `${array_name[*]}` can be used to get all elements in an array  
+
+## Array length  
+
+`${#array_name[@]}` or `${#array_name[*]}` is used to get the length of the array  
