@@ -43,4 +43,8 @@ A command to format the output in the shell
 %f - print as a float value  
 %o - print as an octal value  
 %s -  print as a string value  
-%x - print as a hexadecimal value  
+%x - print as a hexadecimal value
+
+Example
+%10s, %-10s - format a string with a maximum of 10 characters(- sign means left aligned)  
+%8.2f, %-8.2f - A float point value 8 integers 2 decimal points  

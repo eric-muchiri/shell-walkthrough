@@ -10,3 +10,7 @@ echo ${myArray[1]}
 echo ${color[@]}
 #length of the array
 echo ${#color[@]}
+
+#printf
+printf "%-10s %-7s %-8s\n"Name age weight
+printf "%-10s %-7s %-8s\n"don 14 55
