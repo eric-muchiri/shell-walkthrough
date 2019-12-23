@@ -33,3 +33,14 @@ __Get all elements__
 ## Array length  
 
 `${#array_name[@]}` or `${#array_name[*]}` is used to get the length of the array  
+
+## printf
+
+A command to format the output in the shell  
+
+%b - print as a binary value  
+%d - print as a digital value  
+%f - print as a float value  
+%o - print as an octal value  
+%s -  print as a string value  
+%x - print as a hexadecimal value  
