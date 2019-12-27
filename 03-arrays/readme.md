@@ -48,3 +48,15 @@ A command to format the output in the shell
 Example
 %10s, %-10s - format a string with a maximum of 10 characters(- sign means left aligned)  
 %8.2f, %-8.2f - A float point value 8 integers 2 decimal points  
+
+## Escape sequence
+
+The `\` is used to escape characters  
+
+`\a` - outputs an alert  
+`\n` - output to the next line  
+`\r` - makes a return  
+`\t` - makes a tab  
+`\f` - output to the next page  
+`\'` - single quote  
+`\"` - double quote  
