@@ -14,3 +14,12 @@ then
 else
     echo "a is not equal to b"
 fi
+
+c=20
+d=30
+if [ $c -eq $d ]
+then
+    echo "c is equal to d"
+else
+    echo "c is not equal to d"
+fi
