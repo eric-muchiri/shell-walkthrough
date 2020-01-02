@@ -27,3 +27,16 @@ fi
 [ $a == $b ] compares a and b, check if a is equal to b or not  
 About `==` it should be put between square brackets with spaces  
 For example: `[$a==$b]` is wrong, `[ $a == $b ]` is correct  
+There must be spaces between [] and !=  
+
+## operators  
+
+Linux shell has comparison operators as follows  
+
+`-eq` - Equal  
+`-ne` - Not equal  
+`-gt` - Greater than  
+`-ge` - Greater than or equal to  
+`-lt` - Less than  
+`-le` - Less or equal  
+The comparison expression returns true or false  
