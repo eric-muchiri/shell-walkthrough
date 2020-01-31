@@ -23,3 +23,21 @@ then
 else
     echo "c is not equal to d"
 fi
+# Boolean Operators
+x=true
+y=false
+if [ $x -a $y ] #-a means and
+ then
+    echo "false"
+fi
+
+if [ $x -o $y ] # -o means or
+then
+     echo "True"
+fi
+
+if [ !x ] #! -not
+ then
+    echo "false"
+fi
+
