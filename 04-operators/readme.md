@@ -40,3 +40,15 @@ Linux shell has comparison operators as follows
 `-lt` - Less than  
 `-le` - Less or equal  
 The comparison expression returns true or false  
+
+## Boolean Operators
+
+Shell supports a number of boolean operators  
+__Operator__     __Equivalent__
+-a  -                and  
+-o  -               or  
+!    -              not  
+
+The result is either true or false  
+
+
